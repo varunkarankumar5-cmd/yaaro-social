@@ -20,7 +20,8 @@
       "package": "com.yaaro.app"
     },
     "web": {
-      "favicon": "./assets/images/yaaro-icon.png"
+      "favicon": "./assets/images/yaaro-icon.png",
+      "output": "single"
     },
     "plugins": [
       [

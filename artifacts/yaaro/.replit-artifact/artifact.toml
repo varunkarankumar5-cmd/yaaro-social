@@ -13,7 +13,7 @@ paths = [ "/" ]
 localPort = 24428
 
 [services.development]
-run = "pnpm --filter @workspace/yaaro run dev"
+run = "pnpm --filter @workspace/yaaro run build && pnpm --filter @workspace/yaaro run serve"
 
 [services.production]
 build = [ "pnpm", "--filter", "@workspace/yaaro", "run", "build" ]
